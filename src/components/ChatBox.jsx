@@ -10,7 +10,7 @@ const ChatBox = ({ classes }) => {
   const { person } = useContext(UserContext);
   return (
     <Dialog
-      open={true}
+      open={false}
       classes={{ paper: classes.dialogPaper }}
       BackdropProps={{ style: { backgroundColor: "unset" } }}
     >
