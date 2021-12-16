@@ -10,9 +10,9 @@ const ChatBox = ({ classes }) => {
   const { person } = useContext(UserContext);
   return (
     <Dialog
-      open={false}
+      open={true}
       classes={{ paper: classes.dialogPaper }}
-      BackdropProps={{ style: { backgroundColor: "unset" } }}
+      BackdropProps={{ style: { backgroundColor: "unset" }}}
     >
       <Box className={classname.component}>
         <Box className={classname.leftComponent}>
@@ -47,7 +47,7 @@ const style = {
     width: "100%",
     maxWidth: "100%",
     maxHeight: "100%",
-    margin: 'unset',
+    margin: "unset",
     overflow: "inherit",
     backgroundColor: "#f8fafb",
   },
