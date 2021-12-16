@@ -28,9 +28,6 @@ const useStyles = makeStyles({
   loginComponent: {
     backgroundColor: "#DCDCDC",
     height: "100vh",
-    "@media (max-width: 700px)": {
-      backgroundColor: "#fff",
-    },
   },
   chatComponent: {
     backgroundColor: "#DCDCDC",
